@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <title>Gallery-Slider</title>
+   <meta charset="utf-8">
+   <meta name="description" content="My Gallery-Slider">
+   <link rel="stylesheet" href="styles/reset.css">
+   <link rel="stylesheet" href="styles/main.css">
+   <script src="index.js" defer></script>
+</head>
+
+<body>
+   <div id="page">
+
+      <header id="page-header">
+         <section class="header-content">
+            <a href="index.html"></a>
+            <p id="name">Arda Şen</p>
+            <p id="job">Developer</p>
+
+         </section>
+         <div class="slide-menu">
+            <a href="index.html">Main</a>
+            <a href="gallery.html">Gallery-Slider</a>
+            <a href="CV.pdf">Contact</a>
+         </div>
+
+
+         <button type="button" id="btn-hamburger" class="normal">
+            <span></span>
+            <span></span>
+            <span></span>
+         </button>
+      </header>
+      <main>
+         <section class="main-text">
+            <h2>
+               I made this Gallery-Slider with Vanilla Css
+            </h2>
+
+            <p> You can see the the photos in Gallery-Slider below.
+            </p>
+         </section>
+
+         <nav class="main-circles">
+            <a href="index.html" class="a-orange">Main</a>
+            <a href="gallery.html" class="a-red">Gallery-Slider</a>
+            <a href="CV.pdf" class="a-blue">CV</a>
+         </nav>
+         <!-- Carousel -->
+         <div id="main-gallery">
+            <div class="slider">
+               <div class="slide">
+                  <img src="img/pexels-michael-block-3225529 (1).jpg" alt="boost kd">
+               </div>
+               <div class="slide">
+                  <img src="img/pexels-tesla-lee-3857400.jpg" alt="boost kd">
+               </div>
+               <div class="slide">
+                  <img src="img/pexels-vlad-chețan-2923156.jpg" alt="boost kd">
+               </div>
+            </div>
+
+            <nav class="bullets">
+               <button type="button" data-index="0">
+                  1
+               </button>
+               <button type="button" data-index="1">
+                  2
+               </button>
+               <button type="button" data-index="2">
+                  3
+               </button>
+
+
+            </nav>
+
+
+            <nav class="directional">
+               <button data-direction="prev">
+                  prev
+               </button>
+
+               <button data-direction="next">
+                  next
+               </button>
+            </nav>
+         </div>
+
+
+      </main>
+      <footer id="page-footer">
+         <nav class="footer-mail">
+
+            <h3>Email</h3>
+            <a href="mailto:ardasen.business@gmail.com">ardasenbusiness@gmail.com</a>
+         </nav>
+
+
+
+         <nav class="footer-contact">
+            <h3>Follow Me</h3>
+
+
+
+            <a href="https://github.com/ardasenn" target="_blank"> <img src="./img/github-brands.svg" alt="GitHub"
+                  width="40" height="50"></a>
+
+            <a href="https://www.linkedin.com/in/arda-şen-6668a7193/" target="_blank"> <img
+                  src="./img/linkedin-brands.svg" alt="linkedin" width="40" height="50"></a>
+
+            <a href="https://www.instagram.com/ardaa_senn/" target="_blank"> <img src="./img/instagram-brands.svg"
+                  alt="Instagram" width="40" height="50"> </a>
+
+         </nav>
+
+      </footer>
+   </div>
+</body>
+
+</html>
