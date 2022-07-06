@@ -94,7 +94,7 @@ button {
 }
 
 #btn-hamburger.x span:nth-child(1) {
-    transform: translateY(12px) rotate(60deg);
+    transform: translateY(12px) rotate(420deg);
     background-color: var(--ref);
 }
 
@@ -103,7 +103,7 @@ button {
 }
 
 #btn-hamburger.x span:nth-child(3) {
-    transform: translateY(-14px) rotate(-60deg);
+    transform: translateY(-14px) rotate(-420deg);
     background-color: var(--ref);
 }
 
