@@ -3,6 +3,8 @@
 
 <head>
    <title>My Portfolio</title>
+   <!-- viewport meta tag ( mandatory for responsiveness ) -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta charset="utf-8">
    <meta name="description" content="Arda Şen Portfolio">
    <link rel="stylesheet" href="styles/reset.css">
@@ -15,16 +17,22 @@
 
       <header id="page-header">
          <section class="header-content">
-            <a href="index.html"></a>
+            <a href="index.html" id="header-circle"></a>
             <p id="name">Arda Şen</p>
             <p id="job">Developer</p>
-
          </section>
+         <nav id="nav-button">
+            <a href="index.html" class="slider-off">Main</a>
+            <a href="gallery.html" class="slider-off">Gallery-Slider</a>
+            <a href="CV.pdf" class="slider-off">Contact</a>
+
+            </nav>
          <div class="slide-menu">
             <a href="index.html">Main</a>
             <a href="gallery.html">Gallery-Slider</a>
             <a href="CV.pdf">Contact</a>
          </div>
+
 
 
          <button type="button" id="btn-hamburger" class="normal">
@@ -79,7 +87,7 @@
          <nav class="footer-contact">
             <h3>Follow Me</h3>
 
-            
+
 
             <a href="https://github.com/ardasenn" target="_blank"> <img src="./img/github-brands.svg" alt="GitHub"
                   width="40" height="50"></a>
@@ -87,9 +95,8 @@
             <a href="https://www.linkedin.com/in/arda-şen-6668a7193/" target="_blank"> <img
                   src="./img/linkedin-brands.svg" alt="linkedin" width="40" height="50"></a>
 
-                  <a href="https://www.instagram.com/ardaa_senn/" target="_blank"> <img
-                     src="./img/instagram-brands.svg" alt="Instagram" width="40"
-                     height="50"> </a>
+            <a href="https://www.instagram.com/ardaa_senn/" target="_blank"> <img src="./img/instagram-brands.svg"
+                  alt="Instagram" width="40" height="50"> </a>
 
          </nav>
 
